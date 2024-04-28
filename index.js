@@ -13,9 +13,9 @@ app.use(express.json());
 app.use(
   cors({
     origin: [
-      "https://sportoweb.vercel.app",
+      "https://master.d2v70bn2gbv0ix.amplifyapp.com",
       "http://localhost:3000",
-      "https://sportoadmin.vercel.app",
+      "https://main.d3h8xmh00tv2y4.amplifyapp.com",
       // "https://sbtadmin.vercel.app",
       // "https://www.soilboostertechnologies.in",
     ], // Change this to your frontend's URL
