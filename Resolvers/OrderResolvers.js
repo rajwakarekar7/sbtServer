@@ -22,7 +22,7 @@ const CreateOrder = async (_, { orderInput }) => {
         from: process.env.EMAIL_NODEMAILER,
         to: email,
         subject: "Order Sucessfully",
-        text: `Congratulations on your successful order at SoilBooster.in! OrderId : ${orderid} We're thrilled to have you as our valued customer. Your support means the world to us, and we hope you enjoy the products and services you've chosen. If you have any questions or need assistance, please don't hesitate to reach out to our friendly customer support team. Thank you for choosing SoilBooster.in for your gardening needs!`,
+        text: `Congratulations on your successful order at SPORTO.in! OrderId : ${orderid} We're thrilled to have you as our valued customer. Your support means the world to us, and we hope you enjoy the products and services you've chosen. If you have any questions or need assistance, please don't hesitate to reach out to our friendly customer support team. Thank you for choosing SoilBooster.in for your gardening needs!`,
       };
 
       await transporter.sendMail(mailOptions);
@@ -46,7 +46,7 @@ const GetOrderByEmail = async (_, { id }) => {
     const OrderByEmail = await OrderModel.find({ email: id });
     return OrderByEmail;
   } catch (error) {
-    console.log(error);
+    // console.log(error);
     return [{}];
   }
 };
@@ -74,7 +74,7 @@ const UpdateOrder = async (_, { _id, input }) => {
       status: true,
     };
   } catch (error) {
-    console.log(error);
+    // console.log(error);
     return {
       message: "Something Went Wrong!",
       status: false,

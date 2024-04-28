@@ -20,7 +20,7 @@ const GetProduct = async (_, { first, last, type }) => {
     }
 
   } catch (error) {
-    console.log(error);
+    // console.log(error);
   }
 
 };
