@@ -12,7 +12,6 @@ const productSchema = new mongoose.Schema({
   selWght: String,
   selPrice: String,
   stock: String,
-  form: String,
 });
 
 // Define the Address schema
@@ -33,12 +32,10 @@ const orderSchema = new mongoose.Schema({
   email: String,
   name: String,
   time: String,
-
   totalAmount: String,
   month: {
     type: String,
     default: Month,
-
   },
   year: {
     type: String,

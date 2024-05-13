@@ -9,7 +9,6 @@ const Razorpay = require("razorpay")
 dotenv.config({ path: "./.env" });
 app.use(helmet());
 app.use(express.json());
-
 app.use(
   cors({
     origin: [
