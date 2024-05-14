@@ -23,9 +23,9 @@ const productSchema = new mongoose.Schema({
     type: String,
   },
 
-  // praman: {
-  //   type: String,
-  // },
+  praman: {
+    type: String,
+  },
 
   main_ingredient: {
     type: [String],
@@ -36,9 +36,9 @@ const productSchema = new mongoose.Schema({
   pricelist: {
     type: [String],
   },
-  // Advantages: {
-  //   type: [String],
-  // },
+  Advantages: {
+    type: [String],
+  },
   review: {
     type: [String],
   },
