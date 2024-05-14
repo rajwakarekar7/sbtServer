@@ -14,9 +14,7 @@ app.use(
     origin: [
       "https://master.d2v70bn2gbv0ix.amplifyapp.com",
       "http://localhost:3000",
-      "https://main.d3h8xmh00tv2y4.amplifyapp.com",
-      // "https://sbtadmin.vercel.app",
-      // "https://www.soilboostertechnologies.in",
+      "https://main.d7rexy5we1u9t.amplifyapp.com"
     ], // Change this to your frontend's URL
     optionsSuccessStatus: 200,
   })
