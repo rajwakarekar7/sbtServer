@@ -112,13 +112,17 @@ type delUSer {
     _id: String
     product_name: String
     price: String
+    form: String
     off:String
     shipping:String
     stock: String
     type: String
     description: String
+    praman: String
+    main_ingredient: [String]
     Quantity: [String]
     pricelist: [String]
+    Advantages: [String]
     review: [String]
     image: [String]
   }
@@ -127,13 +131,17 @@ type delUSer {
     _id: String
     product_name: String
     price: String
+    form: String
     stock: String
     type: String
     off:String
     shipping:String
     description: String
+    praman: String
+    main_ingredient: [String]
     Quantity: [String]
     pricelist: [String]
+    Advantages: [String]
     review: [String]
     image: [String]
    
